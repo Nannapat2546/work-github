@@ -1,0 +1,75 @@
+html, body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #D9C4EC;
+    color: #010101;
+}
+
+.head-contrian {
+    background-color: black;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+div ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+div ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gallery {
+    position: relative;
+    width: 100%;
+    height: 1200px; /* กำหนดความสูงรวมของแกลลอรี่ */
+    margin-top: 2%;
+    text-align: center;
+}
+
+.img-item {
+    position: absolute;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+    top: calc((var(--row) - 1) * 33.33%);
+    left: calc((var(--col) - 1) * 33.33%);
+}
+
+.img-item img {
+    width: 80%; /* ปรับขนาดรูปภาพ */
+    height: auto;
+}
+.img-item .caption {
+    margin-top: 0.5em;
+    font-size: 1em;
+    color: #333;
+}
+.nn {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #010101;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
